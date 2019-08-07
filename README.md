@@ -1,1 +1,1 @@
-# mysql
+# how to install mysql
