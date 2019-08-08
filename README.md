@@ -1,5 +1,5 @@
 # how to install mysql
-<br>
+
 => 1 Update the apt package manager index by typing following command: <br>
 `sudo apt update` <br>
 => 2
