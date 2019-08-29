@@ -6,27 +6,27 @@
 Now to install mysql-server package run below command <br>
 `sudo apt install mysql-server`<br>
 => 3
-Now confirm the installation and check MySQL version typing following command: <br>
-`mysql -v`<br>
-=> 4
-After completing installation MySQL will start automatically. Check MySQL version by typing: <br>
-`sudo systemctl status mysql`<br>
-=> 5
-and how to open mysql <br>
-`mysql -u root -p`<br>
-=> 6
-After installation, we have to improve MySQL security by typing the following: <br>
-`sudo mysql_secure_installation` <br>
-
-<br>
-
+THEN use mysql
+=>4
+update user set authentication_string=PASSWORD("enter_your_password") where user = 'root';
+=>4
+update user set plugin="mysql_native_password" where user="root"
+=>5
+flush privileges;
+=>6
+/etc/inot.d/mysql stop
+=>7
+/etc/inot.d/mysql start
+============================
+*now you can user your mysql*
+=/////////
+this is commend for open your mysql
+sudo mysql -u root -p
+====================
 For nodemon <br>
 `npm install -g nodemon`
 <br>
 some time this command is working but if this will not woking so use this command <br>
 `sudo npm - g nodemon --save`<br>
-or <br> 
-`sudo npm - g nodemonv
 
-
-this video also helpfull to set password ("https://www.youtube.com/watch?v=sG5Z4JqhRx8")
+[this video also helpfull to set password ]("https://www.youtube.com/watch?v=sG5Z4JqhRx8")
