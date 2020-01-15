@@ -29,4 +29,5 @@ For nodemon <br>
 some time this command is working but if this will not woking so use this command <br>
 `sudo npm - g nodemon --save`<br>
 
-[this video also helpfull to set password ]("https://www.youtube.com/watch?v=sG5Z4JqhRx8")
+(this video also helpfull to set password)
+["https://www.youtube.com/watch?v=sG5Z4JqhRx8"]
